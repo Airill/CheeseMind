@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.EventSystems;
 
 public class RatMove : MonoBehaviour
@@ -52,12 +53,15 @@ public class RatMove : MonoBehaviour
         // режим постановки траектории
         if ((go == false) && (scoreWindowActive == false))
         {
-            //проверка, что мышь не на кнопке интрефейса
-            if (!EventSystem.current.IsPointerOverGameObject())
+            // считываем нажатие touch
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
+                //проверка, что мышь не на кнопке интрефейса
+                if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
             {
                 // считываем нажатие мыши
-                if (Input.GetMouseButtonDown(0))
-                {
+     //           if (Input.GetMouseButtonDown(0))
+     //           {
                     // проверяем, что доступное количество точек еще не поставлено
                     if (pointNumber < point.Length)
                     {
@@ -70,7 +74,7 @@ public class RatMove : MonoBehaviour
                         // переход к вводу следующей точки
                         pointNumber++;
                     }
-
+                  
                 }
             }
 

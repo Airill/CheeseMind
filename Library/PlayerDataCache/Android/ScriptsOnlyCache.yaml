@@ -1120,4 +1120,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/level_1.unity
   - Assets/Scenes/level_2.unity
-  playerPath: D:/Game_projects/CheeseMind/BuildAndroid/CheeseMind.apk
+  playerPath: D:/Game_projects/CheeseMind/BuildAndroid/CheeseMind_test.apk

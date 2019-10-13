@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 38583950}
   - component: {fileID: 38583952}
   - component: {fileID: 38583951}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 214749605}
   - component: {fileID: 214749604}
   - component: {fileID: 214749603}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 491184668}
   - component: {fileID: 491184667}
   - component: {fileID: 491184669}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Score text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 573154468}
   - component: {fileID: 573154467}
   - component: {fileID: 573154466}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Confirm button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1377,7 +1377,7 @@ Transform:
   m_GameObject: {fileID: 674293026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 55}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1509,7 +1509,7 @@ GameObject:
   - component: {fileID: 1370179519}
   - component: {fileID: 1370179518}
   - component: {fileID: 1370179517}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Menu button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1637,7 +1637,7 @@ GameObject:
   - component: {fileID: 1370617248}
   - component: {fileID: 1370617250}
   - component: {fileID: 1370617249}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1715,7 +1715,7 @@ GameObject:
   - component: {fileID: 1444494149}
   - component: {fileID: 1444494148}
   - component: {fileID: 1444494147}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Cancel button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1912,7 +1912,7 @@ GameObject:
   - component: {fileID: 1624195334}
   - component: {fileID: 1624195336}
   - component: {fileID: 1624195335}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
